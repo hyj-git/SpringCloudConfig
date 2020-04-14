@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    first:
+      path: /api-r/**
+      serviceId: student-ribbon
+    second:
+      path: /api-f/**
+      serviceId: service-fegin
